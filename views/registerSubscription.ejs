@@ -1,0 +1,75 @@
+<div class="container-lg">
+    <h1 class="mb-4">REGİSTER SUBSCRIPTION</h1>
+      <form action="/api/registerSubscription" method="POST">
+          <div class="row">
+            <div class="col-2">
+              <label for="fullname">fullname</label>
+            </div>
+            <div class="col-10">
+              <input required type="text" id="fullname" name="fullname" placeholder="fullname" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <label for="address">address</label>
+            </div>
+            <div class="col-10">
+              <textarea required id="address" name="address" placeholder="Write address.." style="height:200px"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+              <label for="markdown">locationName</label>
+            </div>
+            <div class="col-10">
+                <input required type="text" id="locationName" name="locationName" placeholder="locationName" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <label for="markdown">subCityName</label>
+            </div>
+            <div class="col-10">
+                <input required type="text" id="subCityName" name="subCityName" placeholder="subCityName" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <label for="markdown">cityName</label>
+            </div>
+            <div class="col-10">
+                <input required type="text" id="cityName" name="cityName" placeholder="cityName" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <label for="markdown">brand</label>
+            </div>
+            <div class="col-10">
+                <input required type="text" id="brand" name="brand" placeholder="brand" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <label for="markdown">phoneNumber</label>
+            </div>
+            <div class="col-10">
+                <input required type="text" id="phoneNumber" name="phoneNumber" placeholder="phoneNumber" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <label for="markdown">distributorNumber</label>
+            </div>
+            <div class="col-10">
+                <input required type="text" id="distributorNumber" name="distributorNumber" placeholder="distributorNumber" value="">
+            </div>
+          </div>
+
+          <div class="row editButons">
+            <a href="/" class="btn btn-secondary" style="margin-right: 5px; text-transform: uppercase;"> Cancel </a>
+            <input type="submit" value="Submit" style="text-transform: uppercase;">
+          </div>
+        </form>
+  </div>
